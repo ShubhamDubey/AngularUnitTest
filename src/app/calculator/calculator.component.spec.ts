@@ -2,7 +2,9 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { CalculatorComponent } from './calculator.component';
 
-describe('CalculatorComponent', () => {
+// describe is used to create test suit, which is nothing but collections of test cases (it keywords)
+describe('CalculatorComponent', () => { // adding x to 'descrbe' or 'it' will ignore the case and tests
+
 
   let component: CalculatorComponent;
 
@@ -14,6 +16,7 @@ describe('CalculatorComponent', () => {
     component = new CalculatorComponent();
   })
 
+  // xit('should return addition of two numbers', () => {
   it('should return addition of two numbers', () => {
     // let component: CalculatorComponent;
     expect(component.add(10, 10)).toEqual(20);
