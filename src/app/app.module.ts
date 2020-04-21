@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { CounterComponent } from './counter/counter.component';
+import { LoginformComponent } from './loginform/loginform.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalculatorComponent,
-    CounterComponent
+    CounterComponent,
+    LoginformComponent,
   ],
   imports: [
     BrowserModule,
