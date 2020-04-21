@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { CounterComponent } from './counter/counter.component';
 import { LoginformComponent } from './loginform/loginform.component';
+import { Person1Component } from './person1/person1.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { LoginformComponent } from './loginform/loginform.component';
     CalculatorComponent,
     CounterComponent,
     LoginformComponent,
+    Person1Component,
   ],
   imports: [
     BrowserModule,

@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     }).compileComponents();
   }));
 
-  it('should say hello world!', () => {
-    let obj: AppComponent = new AppComponent();
-    expect(obj.sayHello()).toEqual('Hello World!');
-  });
+  // xit('should say hello world!', () => {
+  //   let obj: AppComponent = new AppComponent();
+  //   expect(obj.sayHello()).toEqual('Hello World!');
+  // });
 
   // it('should create the app', () => {
   //   const fixture = TestBed.createComponent(AppComponent);
